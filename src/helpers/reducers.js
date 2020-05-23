@@ -1,5 +1,6 @@
 import { filter } from "lodash/fp";
 
+
 function getSpotsForDay(state, day) {
   const foundDay = state.days.find(d => d.name === day);
 
